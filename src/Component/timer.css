@@ -1,0 +1,29 @@
+.timer{
+    height: 30%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    box-shadow:  0 0 10px cornflowerblue;
+}
+
+.buttonContainer{
+    height: 30%;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttonContainer button{
+    height: 70%;
+    width: 32%;
+    border: none;
+    border-radius: 12px;
+    font-size: small;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color:white;
+}
